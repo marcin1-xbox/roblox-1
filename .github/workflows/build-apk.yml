@@ -1,4 +1,4 @@
-name: Build Android APK (No Wrapper)
+name: Build Android APK (z artefaktami)
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
       with:
-        gradle-version: current # Pobierze najnowszą stabilną wersję Gradle
+        gradle-version: current
 
     - name: Build with global Gradle
       run: gradle assembleDebug
@@ -32,5 +32,3 @@ jobs:
       with:
         name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
-        
-        
