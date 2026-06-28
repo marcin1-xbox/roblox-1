@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.4.1
+Build-Jdk-Spec: 24
+Implementation-Title: fObywatel
+Implementation-Vendor-Id: whisk
+Implementation-Version: 1.0-SNAPSHOT
+Main-Class: whisk.Main
+Specification-Title: fObywatel
+Specification-Version: 1.0-SNAPSHOT
+
